@@ -11,6 +11,9 @@ public class ArrayListExample {
     	al.add("datta");
     	al.add("deva");
     	al.add("bhavya");
+    	al.add("atvya");
+    	al.add("tava");
+
 //    	System.out.println(al.indexOf("darha"));
 //    	System.out.println(al.get(4));
 //    	System.out.println(al.lastIndexOf("bhavya"));
