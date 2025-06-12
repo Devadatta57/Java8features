@@ -1,0 +1,12 @@
+package com.features;
+
+public class OptionalClassExample {
+	public static void main(String[] args) {
+	 String[] str= {"deva","datta",null,"devendranath",null};
+     
+	 for(String s:str) {
+		 System.out.println(s.toUpperCase()+" ");
+	 }
+	 
+	}
+}

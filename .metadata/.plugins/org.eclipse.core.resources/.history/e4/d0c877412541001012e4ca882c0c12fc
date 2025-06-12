@@ -1,0 +1,16 @@
+package com.features;
+
+import java.util.Optional;
+
+public class OptionalClassExample {
+	public static void main(String[] args) {
+	 String[] str= {"deva","datta",null,"devendranath",null};
+     
+	 for(String s:str) {
+		Optional<String> o=Optional.ofNullable(s);
+		 System.out.print(o.toUpperCase()+" ");
+		
+	 
+	 
+	}
+}

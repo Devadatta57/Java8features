@@ -1,0 +1,10 @@
+package com.featurespractise;
+
+public class ArithmeticExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

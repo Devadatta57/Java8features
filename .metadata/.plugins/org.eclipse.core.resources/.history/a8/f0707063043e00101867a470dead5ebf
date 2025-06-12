@@ -1,0 +1,20 @@
+ @FunctionalInterface
+interface Arithmetic{
+	public int operation(int a,int b);
+}
+class HigherOrder{
+	public static int doOperation(int a,int b,Arithmetic o) {
+		return o.operation(a,b);
+		
+	}
+}
+public class ArithmeticExample {
+	public static void main(String[] args) {
+		int result=HigherOrder.doOperation(10,20,(a,b)->{return a+b;});
+         System.out.println(result);
+          result=HigherOrder.doOperation(10,20,(a,b)->{return a-b;});
+         System.out.println(result);
+          result=HigherOrder.doOperation(10,20,(a,b)->{return a*b;});
+         System.out.println(result);
+	}
+}
