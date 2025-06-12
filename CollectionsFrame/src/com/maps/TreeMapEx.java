@@ -16,7 +16,7 @@ public class TreeMapEx {
          h.put("hardik",h.getOrDefault("hardik",0)+12);
          h.put("gill",h.getOrDefault("gill", 0)+34);
       
-       
+          h.put("gall",h.getOrDefault("gill", 0)+34);
          
          for(Map.Entry<String,Integer> entry:h.entrySet()) {
        	  System.out.println(entry.getKey()+":"+entry.getValue());
