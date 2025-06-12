@@ -1,0 +1,40 @@
+package com.features;
+abstract class calci{
+	abstract int multi(int a,int b);
+	abstract int add(int a,int b);
+	abstract int subt(int a,int b);
+	abstract int div(int a, int b);
+
+}
+class op extends calci {
+
+	
+	
+	int add(int a,int b) {
+		return a+b;
+	}
+
+	
+	int subt(int a,int b) {
+		// TODO Auto-generated method stub
+		return a-b;
+	}
+
+	int div(int a,int b) {
+		// TODO Auto-generated method stub
+		return a%b;
+	}
+	
+	
+}
+public class AbstractClass {
+	public static void main(String[] args) {
+		op p=new op();
+		int c=p.add(2, 7);
+		System.out.println(c);
+		
+		System.out.println(p.multi(23,23));
+
+	}
+
+}
